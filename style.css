@@ -7,49 +7,6 @@
 
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     min-height: 100vh;
     background-color: var(--navy);
-}
-
-.ult_cont {
-    background-color: var(--winter);
-    color:var(--yellow);
-    font-size: 3rem;
-    /* width: 30vw;
-    height: 40vh; */
-    border: 3px solid var(--blue);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    /* align-items:center; */
-    text-align: center;
-    gap: 10px;
-}
-
-.ult_cont > div {
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-}
-
-.ult_cont > .button_turns {
-    display: flex;
-    justify-content: stretch;
-    /* gap: 10px */
-}
-
-.ult_cont > .button_turns > button {
-    flex: 1; 
-    margin: 10px;   
-    font-size: 3rem;
-
-}
-
-
-.play_button {
-    font-size: 3rem;
-    flex:1;
 }
