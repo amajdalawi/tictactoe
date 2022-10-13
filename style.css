@@ -72,6 +72,8 @@ body {
     place-self: stretch;
     border: 2px  black solid;
     background-color: var(--color3);
+    font-size: 100%;
+    text-align: center;
 }
 
 .grid-item:hover {
@@ -98,4 +100,23 @@ body {
 
 /* and finally, for the info panels  */
 
+
+.info-body {
+    display: flex;
+    gap: 10px;
+    border: 1px solid black;
+    background-color: #97D2EC;
+    padding: 7px;
+}
+
+.pinfo {
+    border: 1px black solid;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color3);
+    width: 200px;
+    align-items: center;
+    padding: 5px;
+
+}
 
