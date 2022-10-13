@@ -7,7 +7,7 @@
         let num = num_of_player;
         let wins= 0;
 
-        let winsDiv = document.querySelector(`.p-name.p${num}`);
+        let winsDiv = document.querySelector(`.wins.p${num}`);
         winsDiv.innerHTML = wins;
 
         let incrementWins = () => {
@@ -90,7 +90,10 @@
                 }
             }
             
-            if ((arrayBoard[1][1] != '' ) && ((arrayBoard[0][0] === arrayBoard[1][1] && arrayBoard[1][1] === arrayBoard[2][2]) || (arrayBoard[0][2] === arrayBoard[1][1] && arrayBoard[1][1] === arrayBoard[2][0]))) {
+            if ((arrayBoard[1][1] != '' ) && (
+                (arrayBoard[0][0] === arrayBoard[1][1] && arrayBoard[1][1] === arrayBoard[2][2]) || 
+                (arrayBoard[0][2] === arrayBoard[1][1] && arrayBoard[1][1] === arrayBoard[2][0])
+                )) {
                 return true
             }
 
